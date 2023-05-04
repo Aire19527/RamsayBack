@@ -45,7 +45,7 @@ namespace Ramsay.Domain.Services
         {
             StudentEntity student = GetByUserName(addStudent.Username);
             if (student!=null)
-                throw new BusinessException("El nombre de usuario ya existe, por favor asignar otro");
+                throw new BusinessException(GeneralMessages.ExistingName);
 
             StudentEntity entity = new StudentEntity()
             {

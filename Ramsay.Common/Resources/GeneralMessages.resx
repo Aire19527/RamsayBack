@@ -126,6 +126,9 @@
   <data name="Error5001" xml:space="preserve">
     <value>Ha ocurrido un error interno.</value>
   </data>
+  <data name="ExistingName" xml:space="preserve">
+    <value>El nombre de usuario ya existe, por favor asignar otro</value>
+  </data>
   <data name="ItemDeleted" xml:space="preserve">
     <value>Registro eliminado satisfactoriamente.</value>
   </data>

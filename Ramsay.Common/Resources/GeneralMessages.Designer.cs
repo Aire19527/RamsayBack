@@ -88,6 +88,15 @@ namespace Ramsay.Common.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a El nombre de usuario ya existe, por favor asignar otro.
+        /// </summary>
+        public static string ExistingName {
+            get {
+                return ResourceManager.GetString("ExistingName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Registro eliminado satisfactoriamente..
         /// </summary>
         public static string ItemDeleted {
